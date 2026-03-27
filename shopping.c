@@ -10,6 +10,9 @@ int main(){
    char currency[] = "Rs";
    float total = 0.0f;
 
+
+   // test
+
    printf("What item would you like to buy?: ");
    fgets(item, sizeof(item), stdin);
    item[strlen(item) - 1] = '\0' ;
