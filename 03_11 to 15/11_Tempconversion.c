@@ -16,8 +16,6 @@ int main(){
         printf("Is the temp in Celsius or Fahrenheit? (C/F): ");
         scanf(" %c", &choice);
     }
-    //does this loop correctly validate the user input and prompt them until they enter a valid choice (C or F)? Yes, it does. The loop continues to prompt the user until they enter either 'C', 'c', 'F', or 'f', ensuring that only valid choices are accepted.
-    
     
 
     if (choice == 'C' || choice == 'c'){
