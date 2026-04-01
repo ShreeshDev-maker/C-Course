@@ -26,7 +26,7 @@ int main(){
 
     amount = principal * pow((1 + rate / times_compounded), times_compounded * years);
 
-    printf("The amount after %d years is: %.2lf\n", years, amount);
+    printf("The amount after %d years is: %.2lf ₹\n", years, amount);
 
     return 0;
 }
