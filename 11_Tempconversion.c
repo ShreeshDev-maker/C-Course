@@ -23,13 +23,13 @@ int main(){
         printf("Enter temperature in Celsius: ");
         scanf("%f", &temp_c);
         temp_f = (temp_c * 9.0f / 5.0f) + 32.0f;
-        printf("%.2f °C is equal to %.2f °F\n", temp_c, temp_f);
+        printf("%.2f C is equal to %.2f F\n", temp_c, temp_f);
     } else if (choice == 'F' || choice == 'f'){
         // F to C conversion formula: C = (F - 32) * 5/9
         printf("Enter temperature in Fahrenheit: ");
         scanf("%f", &temp_f);
         temp_c = (temp_f - 32.0f) * 5.0f / 9.0f;
-        printf("%.2f °F is equal to %.2f °C\n", temp_f, temp_c);
+        printf("%.2f F is equal to %.2f C\n", temp_f, temp_c);
     } 
     }
 
